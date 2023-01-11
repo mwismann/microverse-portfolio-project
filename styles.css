@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+}
+
+main {
+  background-image: url(icon-img/header-illsutration-mobile@2x.png);
+}
+
+@media only screen and (min-width: 25rem) {}
