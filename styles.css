@@ -74,5 +74,14 @@
     color: var(--primary-t-blue);
   }
 
+  .headline>ul {
+    display: flex;
+  }
+
+  .media-link {
+    text-decoration: none;
+    list-style: none;
+  }
+
 
 }
