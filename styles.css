@@ -29,7 +29,9 @@
     font-weight: 600;
   }
 
-  h4 {
+  .logo-container a {
+    text-decoration: none;
+    color: rgb(40, 53, 47);
     font-size: 1.4rem;
     text-align: center;
     font-weight: 600;
@@ -76,7 +78,7 @@
     color: rgb(54, 179, 126);
   }
 
-  h3 {
+  p {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--primary-t-blue);
