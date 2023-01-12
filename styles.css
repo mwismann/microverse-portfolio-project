@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -193,6 +195,11 @@ li {
   text-decoration: none;
   background-color: var(--primary-t-green);
   border-radius: 0.25rem;
+}
+
+.action-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 /* About Me Section */
