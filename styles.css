@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+
     --primary-t-blue: rgb(23, 43, 77);
     --secondary-t-green: rgb(58, 74, 66);
   }
@@ -74,7 +75,7 @@
     color: var(--primary-t-blue);
   }
 
-  .headline>ul {
+  .headline > ul {
     display: flex;
   }
 
@@ -82,6 +83,4 @@
     text-decoration: none;
     list-style: none;
   }
-
-
 }
