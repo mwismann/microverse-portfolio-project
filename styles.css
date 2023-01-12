@@ -30,7 +30,9 @@
   }
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
   }
 
   #hamburger {
@@ -43,29 +45,34 @@
     position: absolute;
     top: 3rem;
     width: 100%;
-    background: url(icon-img/header-illsutration-mobile@2x.png) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background: url(icon-img/header-illsutration-mobile@2x.png) no-repeat;
     background-size: contain;
   }
 
   .heading {
-    margin: 35% auto;
+    margin: 35% auto 0;
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.75rem;
     text-align: center;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: var(--primary-t-blue);
   }
 
   h2 {
     margin-top: -2rem;
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: rgb(54, 179, 126);
   }
 
@@ -77,10 +84,29 @@
 
   .headline > ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
   }
 
   .media-link {
-    text-decoration: none;
     list-style: none;
+  }
+
+  .action-btn {
+    margin: 0 auto;
+    padding: 0.4rem 0.5rem;
+    background-color: transparent;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 2rem;
+  }
+
+  .action-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(30, 72, 143, 0.239);
+  }
+
+  .media-link img,
+  .action-btn img {
+    width: 1.25rem;
   }
 }
