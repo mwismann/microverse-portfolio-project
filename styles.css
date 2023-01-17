@@ -6,8 +6,6 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 
-  /* overflow-x: hidden; */
-
   --primary-t-blue: rgb(23, 43, 77);
   --primary-t-green: rgb(54, 179, 126);
   --secondary-t-green: rgb(58, 74, 66);
@@ -225,7 +223,6 @@ li {
 
 .about-bg-img-container {
   position: relative;
-  width: 100vw;
 }
 
 .about-bg-img-1 {
@@ -236,7 +233,7 @@ li {
 
 .about-bg-img-2 {
   position: absolute;
-  right: 0;
+  right: -1rem;
   top: -4rem;
 }
 
