@@ -302,7 +302,7 @@ li {
 /* Contact Section */
 .contact-section {
   margin: 0 auto;
-  padding: 2.5rem 1rem 4rem;
+  padding: 2.5rem 1rem 0.5rem;
   text-align: center;
 }
 
@@ -356,4 +356,8 @@ input,
   position: absolute;
   right: -1.05rem;
   top: -8rem;
+}
+
+#contact-line-break {
+  margin: 15rem auto 0;
 }
