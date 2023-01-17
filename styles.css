@@ -11,6 +11,7 @@
   --secondary-t-green: rgb(58, 74, 66);
   --secondary-b-light: rgb(235, 240, 238);
   --secondary-b-dark: rgb(208, 217, 212);
+  --active-btn: rgb(0, 133, 82);
 }
 
 header {
@@ -23,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo-container {
@@ -49,7 +50,7 @@ header {
 }
 
 .headline {
-  margin-top: 1rem;
+  margin-top: 3rem;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -202,6 +203,10 @@ li {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
+.action-btn:active {
+  background-color: var(--active-btn);
+}
+
 /* About Me Section */
 .about-section {
   margin: 0 auto;
@@ -296,7 +301,6 @@ li {
 
 /* Contact Section */
 .contact-section {
-  position: relative;
   margin: 0 auto;
   padding: 2.5rem 1rem 4rem;
   text-align: center;
@@ -345,10 +349,11 @@ input,
 }
 
 .contact-bg {
+  position: relative;
+}
+
+.contact-bg > img {
   position: absolute;
-  right: 0;
-  bottom: 6rem;
-  width: 3.5rem;
-  height: 8rem;
-  background: url(icon-img/contact-bg.svg) no-repeat;
+  right: -1.05rem;
+  top: -8rem;
 }
