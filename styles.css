@@ -36,6 +36,10 @@ header {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo-container a {
   text-decoration: none;
   color: rgb(40, 53, 47);
@@ -105,10 +109,6 @@ p {
 
 li {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 .action-btn-sec {
@@ -375,11 +375,9 @@ footer {
   display: none;
 }
 
-
 /* DESKTOP VERSION */
 
 @media screen and (min-width: 768px) {
-
   header {
     position: absolute;
     background-color: transparent;
@@ -415,7 +413,6 @@ footer {
     height: 100vh;
     background: url(icon-img/desktop/Header-illustration-desktop.svg) no-repeat;
     background-size: 100%;
-    width:100%;
     justify-content: flex-start;
     gap: 2.5rem;
   }
@@ -424,7 +421,7 @@ footer {
     padding-top: 17%;
   }
 
-  h1{
+  h1 {
     font-size: 3rem;
   }
 
@@ -548,11 +545,11 @@ footer {
   .about-grid-card > h3 {
     font-size: 2rem;
   }
-  
+
   .about-categories {
     gap: 0.6rem;
   }
-  
+
   .about-categories > li {
     padding: 0.75rem 1rem;
     font-size: 0.8rem;
@@ -578,14 +575,14 @@ footer {
     border-top: 1px solid var(--secondary-b-light);
   }
 
-  footer ul {
+  #footer-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.25rem;
   }
 
-  .media-link.foot img {
+  .footer-img {
     width: 1.25rem;
   }
 }
