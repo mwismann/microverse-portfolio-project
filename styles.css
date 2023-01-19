@@ -180,6 +180,7 @@ li {
 
 .work-categories {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 0.45rem;
@@ -325,6 +326,7 @@ li {
 }
 
 #contact-form {
+  width: 100%;
   padding: 3.5rem 0;
   display: flex;
   flex-direction: column;
@@ -409,7 +411,7 @@ footer {
 
   .headline {
     margin-top: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: url(icon-img/desktop/Header-illustration-desktop.svg) no-repeat;
     background-size: 100%;
@@ -557,11 +559,58 @@ footer {
   }
 
   /* Contact Section */
-  .alt-container {
-    padding: 0 7.5rem;
-    display: flex;
+  #contact-section {
+    position: static;
+    margin: 4rem 0 17rem;
   }
 
+  .alt-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  #contact-section h2 {
+    width: 35%;
+    margin: 2.5rem 0;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .contact-bg-desk-container {
+    position: relative;
+  }
+
+  #contact-bg-desk-1 {
+    position: absolute;
+    left: -4rem;
+    bottom: -14rem;
+  }
+
+  #contact-bg-desk-2 {
+    position: absolute;
+    left: 24rem;
+    top: 4rem;
+  }
+
+  #contact-bg-desk-3 {
+    position: absolute;
+    right: -1rem;
+    top: -14rem;
+  }
+
+  #contact-form {
+    max-width: 64%;
+    padding: 0;
+  }
+
+  #submit-btn {
+    margin: 0.5rem 0;
+  }
+
+  #contact-bg,
   #contact-section ul,
   #contact-section span,
   #contact-line-break {
