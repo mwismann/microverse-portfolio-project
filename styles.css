@@ -119,11 +119,6 @@ li {
   border-radius: 2rem;
 }
 
-.action-btn-sec:hover {
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(30, 72, 143, 0.239);
-}
-
 .media-link img,
 .action-btn-sec img {
   width: 1.25rem;
@@ -132,6 +127,11 @@ li {
 .media-link img,
 .action-btn-sec {
   transition: 0.3s ease-in-out;
+}
+
+.action-btn-sec:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(30, 72, 143, 0.239);
 }
 
 .media-link img:hover,
