@@ -119,14 +119,24 @@ li {
   border-radius: 2rem;
 }
 
+.media-link img,
+.action-btn-sec img {
+  width: 1.25rem;
+}
+
+.media-link img,
+.action-btn-sec {
+  transition: 0.3s ease-in-out;
+}
+
 .action-btn-sec:hover {
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(30, 72, 143, 0.239);
 }
 
-.media-link img,
-.action-btn img {
-  width: 1.25rem;
+.media-link img:hover,
+.action-btn-sec:hover {
+  transform: scale(1.2);
 }
 
 /* Works Section */
@@ -207,10 +217,13 @@ li {
   text-decoration: none;
   background-color: var(--primary-t-green);
   border-radius: 0.25rem;
+  transition: 0.3s ease-in-out;
 }
 
 .action-btn:hover {
   cursor: pointer;
+  color: var(--primary-t-green);
+  background-color: var(--secondary-b-light);
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
@@ -407,6 +420,12 @@ footer {
     padding: 0.5rem 1rem;
     color: rgb(25, 28, 28);
     font-weight: 600;
+    animation: navBtn 3s ease-in-out;
+    transition: 0.3s ease;
+  }
+
+  .nav-menu:hover {
+    letter-spacing: 0.5rem;
   }
 
   .headline {
@@ -633,5 +652,23 @@ footer {
 
   .footer-img {
     width: 1.25rem;
+  }
+}
+
+@keyframes navBtn {
+  0% {
+    transform: translateY(-200%);
+  }
+
+  35% {
+    transform: translateY(120%);
+  }
+
+  70% {
+    transform: translateY(-30%);
+  }
+
+  100% {
+    transform: translateY(0%);
   }
 }
